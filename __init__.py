@@ -10,11 +10,11 @@ def read_file(path):
 
     except FileNotFoundError:
         print("File not found")
-        return []
+        return ''
 
     except (IndexError, ValueError):
         print("File format is incorrect")
-        return []
+        return ''
 
 
 def measure(search_algorithm, text, pattern):
