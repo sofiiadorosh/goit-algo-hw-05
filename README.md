@@ -59,13 +59,29 @@ Rabin–Karp showed competitive but less stable performance.
 - **Fake pattern (“космос”)**: often faster due to early mismatches and quick rejection
 
 
+## 🏁 Fastest Algorithm Analysis (Based on Measured Data)
+
+### 📄 Algorithm Usage text
+The fastest algorithm for this text is:
+- **Boyer–Moore**
+
+It consistently shows the lowest execution time across both real and fake patterns.
+
+
+### 📄 Data Structures text
+The fastest algorithm for this text is:
+- **Boyer–Moore**
+
+It again outperforms KMP and Rabin–Karp in most cases.
+
+
 ## ✅ Conclusions
 
-No single algorithm is universally optimal:
+Based on all measurements across both texts:
 
-- **Boyer–Moore** → fastest in real-world usage  
-- **KMP** → most stable and predictable  
-- **Rabin–Karp** → useful for specialized hashing-based scenarios  
+- 🥇 **Boyer–Moore** → fastest overall
+- 🥈 **Knuth–Morris–Pratt (KMP)** → stable but slower
+- 🥉 **Rabin–Karp** → generally the slowest due to hashing overhead
 
 
 ## 🏁 Final Recommendation
